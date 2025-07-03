@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/your-username/my-node-app.git'  // Replace with your repo URL
+                git 'https://github.com/RahilHargey/JenkinswithAWS.git'
             }
         }
         stage('Install Dependencies') {
