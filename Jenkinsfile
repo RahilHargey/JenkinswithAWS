@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'pm2 restart app.js || pm2 start app.js'
+                sh '/usr/bin/pm2 restart app.js || /usr/bin/pm2 start app.js'
             }
         }
     }
